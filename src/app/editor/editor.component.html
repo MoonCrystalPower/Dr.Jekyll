@@ -1,0 +1,24 @@
+<div class="editor-wrapper">
+  <div class="title-bar">
+    <div class="git-menu">
+      <div class="icon-container">
+        <img [src]="icon_commit">
+      </div>
+      <div class="icon-container">
+        <img [src]="icon_push">
+      </div>
+      <div class="icon-container">
+        <img [src]="icon_pull">
+      </div>
+      <div class="icon-container">
+        <img [src]="icon_branch">
+      </div>
+    </div>
+  </div>
+  <div class="contents-container">
+      <sidebar [dir]="repositorySrc"  (filePath)="updateLink($event)"></sidebar>
+      <live-editor [dir]="repositorySrc" [mdDoc]="mdDocInfo"></live-editor>
+  </div>
+</div>
+<modal id="header-modal">
+</modal>

@@ -1,0 +1,18 @@
+<div class="modal">
+  <div class="modal-body">
+    <h1>Header</h1>
+      <div class="modal-contents" *ngFor="let item of header">
+        <div class = "item-title">{{item.key}}</div>
+        <div *ngIf="item.key == 'date'; then date; else text">this is ignored</div>
+        <ng-template #text >
+          <input class = "item-value" type="text" value="{{item.value}}" />
+        </ng-template>
+        <ng-template #date >
+          <input class = "item-value" type="date" value="{{item.date}}" />
+        </ng-template>
+      </div>
+    <button (click)="close();">Save</button>
+    <button (click)="close();">Cancel</button>
+  </div>
+</div>
+<div class="modal-background"></div>

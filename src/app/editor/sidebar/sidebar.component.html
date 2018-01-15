@@ -1,0 +1,11 @@
+<div class="side-menu">
+  <div class="side-menu-icon-container">
+    <div class="icon_wrapper"></div>
+    <img [src]="icon_fileBrowser">
+  </div>
+  <div class="side-menu-icon-container">
+      <div class="icon_wrapper"></div>
+      <img [src]="icon_branchBrowser">
+    </div>
+</div>
+<side-content [dir]="dir" (fileLink)="onUpdate($event)"></side-content>

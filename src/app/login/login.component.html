@@ -1,0 +1,21 @@
+<div class="title-bar">
+</div>
+<div class="login-wrapper" >
+    <div class="login-contents">
+        <div class="logo-image-wrapper"></div>
+        <div class="logo-image" unselectable="on">
+            <img [src]="logo_jekyll">
+        </div>
+        <div class="input-field">
+            <input #userName id="name" type="text" placeholder="id">
+        </div>
+        <div class="input-field">
+            <input #userPassword id="password" type="password" placeholder="password">
+        </div>
+        <div class="sign-in" (click)="login({'name':userName.value, 'password':userPassword.value});" type="submit" name="action">
+            <div class="sign-in-wrapper"></div>
+            <img [src]="icon_github">
+            <span>Sign in with GitHub</span>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,40 @@
+.side-title {
+  width: 160px;
+  padding: 10px 0px;
+  height: 18px;
+  font-family: Arial;
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 16px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.file-tool-box {
+  width: fit-content;
+  height: 30px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.file-tool-box .icon-container {
+  padding: 4px 0px;
+  text-align: center;
+  display: inline-block;
+  width: 32px;
+  height: 22px;
+}
+
+.file-tool-box .icon-container img {
+  height: 22px;
+}
+
+.icon-wrapper {
+  width: 32px;
+  height: 22px;
+  position: absolute;
+}
+
+tree-root {
+  color: white;
+}

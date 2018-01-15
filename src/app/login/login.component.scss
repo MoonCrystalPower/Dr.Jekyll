@@ -1,0 +1,97 @@
+.title-bar {
+  width: 780px;
+  height: 40px;
+  -webkit-app-region: drag;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.login-wrapper {
+  -webkit-app-region: drag;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  user-select:none;
+}
+
+.logo-image-wrapper {
+  width: 250px;
+  height: 272px;
+  position: absolute;
+}
+
+.login-contents {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 10px;
+  -webkit-app-region: no-drag;  
+}
+
+.logo-image {
+  text-align: center;
+}
+
+.logo-image img {
+  width: 209px;
+  height: 268px;
+}
+
+.input-field input{
+  width: 230px;
+  height: 30px;
+  padding: 0px 10px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom-width: 1px;
+  border-style: solid;
+  border-color: #c8c8c8;
+  background-color: rgba(255, 255, 255, 0.00);
+  font-size: 14px;
+  color: #474747;
+  line-height: 14px;
+  margin-bottom: 10px;
+}
+
+.sign-in-wrapper {
+  width: 230px;
+  height: 20px;
+  position: absolute;
+}
+
+.sign-in {
+  width: 250px;
+  height: 36px;
+  padding-top: 6px;
+  border-radius: 4px;
+  background-color: #444444;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.sign-in:hover {
+  cursor: pointer;
+}
+
+.sign-in img {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.sign-in span {
+  width: 146px;
+  height: 14px;
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 18px;
+  text-align: center;
+  font-weight: lighter;
+  vertical-align: middle;
+}

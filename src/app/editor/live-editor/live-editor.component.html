@@ -1,0 +1,89 @@
+<div class="le-wrapper">
+  <div class="tab-box">
+  </div>
+  <div class="le-toolbox">
+    <div class="le-tool-group-wrapper">
+      <div class="le-tool-group">
+        <div class="le-tool-icon">
+          <div class="icon-wrapper" (click)="openHeader()"></div>
+          <img [src]="icon_editHeader">
+        </div>
+      </div>
+      <div class="le-tool-group">
+        <div class="le-tool-icon">
+          <div class="icon-wrapper" (click)="orderedList()"></div>
+          <img [src]="icon_ol">
+        </div>
+        <div class="le-tool-icon">
+          <div class="icon-wrapper" (click)="unorderedList()"></div>
+          <img [src]="icon_ul">
+        </div>
+        <div class="le-tool-icon">
+          <div class="icon-wrapper" (click)="bold()"></div>
+          <img [src]="icon_bold">
+        </div>
+        <div class="le-tool-icon">
+          <div class="icon-wrapper" (click)="heading()"></div>
+          <img [src]="icon_heading">
+        </div>
+      </div>
+      <div class="le-tool-group">
+        <div class="le-tool-icon">
+          <div class="icon-wrapper"></div>
+          <img [src]="icon_table">
+        </div>
+        <div class="le-tool-icon">
+          <div class="icon-wrapper"></div>
+          <img [src]="icon_deleteTable">
+        </div>
+        <div class="le-tool-icon">
+          <div class="icon-wrapper"></div>
+          <img [src]="icon_add">
+        </div>
+      </div>
+      <div class="le-tool-group">
+        <div class="le-tool-icon">
+          <div class="icon-wrapper"></div>
+          <img [src]="icon_image">
+        </div>
+        <div class="le-tool-icon">
+          <div class="icon-wrapper"></div>
+          <img [src]="icon_link">
+        </div>
+        <div class="le-tool-icon">
+          <div class="icon-wrapper"></div>
+          <img [src]="icon_quote">
+        </div>
+        <div class="le-tool-icon">
+          <div class="icon-wrapper"></div>
+          <img [src]="icon_code">
+        </div>
+        <div class="le-tool-icon">
+          <div class="icon-wrapper"></div>
+          <img [src]="icon_checklist">
+        </div>
+        <div class="le-tool-icon">
+          <div class="icon-wrapper"></div>
+          <img [src]="icon_ssl">
+        </div>
+        <div class="le-tool-icon">
+          <div class="icon-wrapper"></div>
+          <img [src]="icon_information">
+        </div>
+        <div class="le-tool-icon">
+          <div class="icon-wrapper"></div>
+          <img [src]="icon_emoji">
+        </div>
+        <div class="le-tool-icon">
+          <div class="icon-wrapper"></div>
+          <img [src]="icon_strike">
+        </div>
+        <div class="le-tool-icon">
+          <div class="icon-wrapper"></div>
+          <img [src]="icon_mention">
+        </div>
+      </div>
+    </div>
+  </div>
+  <iframe #iframe class="le-iframe" width="100%" [src]="pagePath | safe" (load)="onLoad()"></iframe>
+</div>
