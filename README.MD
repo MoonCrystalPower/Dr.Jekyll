@@ -9,7 +9,7 @@ Dr.Jekyll makes Jekyll easier to use. You don't have to type the filename or bot
 
 ### Easy editor
 - WISIWYG support
-If you are not friendly with markdown, you can apply styles with buttons. Of course, you can also user markdown syntax.
+If you are not friendly with markdown, you can apply styles with buttons. Of course, you can also use markdown syntax.
 - Auto Filename formatting
 You don't have to struggle to type filename. Dr.Jekyll automatically generate it.
 - Live editing
