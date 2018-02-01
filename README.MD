@@ -8,7 +8,7 @@
 Dr.Jekyll makes Jekyll easier to use. You don't have to type the filename or bother to write the front matter of the post. You can just concentrate on writing contents of post.
 
 ### Easy editor
-- WISIWYG support
+- WYSIWYG support
 If you are not friendly with markdown, you can apply styles with buttons. Of course, you can also use markdown syntax.
 - Auto Filename formatting
 You don't have to struggle to type filename. Dr.Jekyll automatically generate it.
@@ -35,6 +35,6 @@ Download latest package
 The Dr.Jekyll project welcomes all contributors.<br>
 Please read [CONTRIBUTION GUIDE]() before start.
 
-## Lisence
+## License
 
 This software is licensed under the [MIT](https://github.com/MoonCrystalPower/Dr.Jekyll/blob/master/LICENSE)
