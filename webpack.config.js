@@ -6,8 +6,6 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const autoprefixer = require('autoprefixer');
 const postcssUrl = require('postcss-url');
 const fs = require('fs');
-const gracefulFs = require('graceful-fs');
-gracefulFs.gracefulify(fs);
 
 const { NoEmitOnErrorsPlugin, LoaderOptionsPlugin, DefinePlugin, HashedModuleIdsPlugin } = require('webpack');
 const { GlobCopyWebpackPlugin, BaseHrefWebpackPlugin } = require('@angular/cli/plugins/webpack');
@@ -28,13 +26,6 @@ function getPlugins() {
   // Always expose NODE_ENV to webpack, you can now use `process.env.NODE_ENV`
   // inside your code for any environment checks; UglifyJS will automatically
   // drop any unreachable code.
-
-  plugins.push(new CopyWebpackPlugin ([
-    { 
-      from: path.join(__dirname, "Dr.Hyde"), 
-      to: "Dr.Hyde/" 
-    }
-  ]));
 
   plugins.push(new DefinePlugin({
     "process.env.NODE_ENV": "\"production\""

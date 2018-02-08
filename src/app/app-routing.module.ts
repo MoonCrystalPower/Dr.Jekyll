@@ -28,7 +28,6 @@ const appRoutes: Routes = [
     RouterModule
   ],
   providers: [
-    
   ]
 })
 
