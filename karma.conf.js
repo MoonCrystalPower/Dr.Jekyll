@@ -25,14 +25,16 @@ module.exports = function (config) {
     },
     coverageIstanbulReporter: {
       reports: [ 'html', 'lcovonly' ],
-      fixWebpackSourcePaths: true
+      fixWebpackSourcePaths: true,
+      dir: path.join(__dirname, 'coverage'),
     },
     angularCli: {
-      environment: 'dev'
+      environment: 'dev',
+      codeCoverage: true
     },
     reporters: config.angularCli && config.angularCli.codeCoverage
-              ? ['progress', 'coverage-istanbul']
-              : ['progress', 'kjhtml'],
+                  ? ['progress', 'coverage-istanbul']
+                  : ['progress', 'kjhtml'],
     port: 9876,
     colors: true,
     logLevel: config.LOG_INFO,
