@@ -16,7 +16,8 @@
     "import-spacing": true,
     "indent": [
       true,
-      "spaces"
+      "spaces",
+      2
     ],
     "interface-over-type-literal": true,
     "label-position": true,
@@ -24,11 +25,19 @@
       true,
       140
     ],
+    "max-file-line-count": [
+      true,
+      400
+    ],
     "member-access": false,
     "member-ordering": [
       true,
-      "static-before-instance",
-      "variables-before-functions"
+      {
+        "order": [
+          "static-before-instance",
+          "variables-before-functions"
+        ]
+      }
     ],
     "no-arg": true,
     "no-bitwise": true,
