@@ -16,13 +16,18 @@
     "import-spacing": true,
     "indent": [
       true,
-      "spaces"
+      "spaces",
+      2
     ],
     "interface-over-type-literal": true,
     "label-position": true,
     "max-line-length": [
       true,
       140
+    ],
+    "max-file-line-count": [
+      true,
+      400
     ],
     "member-access": false,
     "member-ordering": [
