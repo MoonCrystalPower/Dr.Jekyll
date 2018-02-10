@@ -1,0 +1,16 @@
+dist: trusty
+sudo: required
+addons:
+  chrome: stable
+language: node_js
+node_js:
+  - "8"
+install:
+  - npm install
+  - npm install codecov -g
+script:
+  - npm run lint
+  - npm run build
+  - npm test
+after_script:
+  - codecov
