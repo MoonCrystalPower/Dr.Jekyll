@@ -1,9 +1,11 @@
 # ![Title](https://github.com/byeolbit/byeolbit.github.io/blob/master/Jekyll_landscape.png?raw=true)
 > Dr.Jeyll is CMS application for Jekyll.
 
-[![Build Status](https://travis-ci.org/MoonCrystalPower/Dr.Jekyll.svg?branch=master)](https://travis-ci.org/MoonCrystalPower/Dr.Jekyll)
-[![codecov](https://codecov.io/gh/MoonCrystalPower/Dr.Jekyll/branch/master/graph/badge.svg)](https://codecov.io/gh/MoonCrystalPower/Dr.Jekyll)
-[![GitHub issues](https://img.shields.io/github/issues/MoonCrystalPower/Dr.Jekyll.svg)](https://github.com/MoonCrystalPower/Dr.Jekyll/issues) [![GitHub license](https://img.shields.io/github/license/MoonCrystalPower/Dr.Jekyll.svg)](https://github.com/MoonCrystalPower/Dr.Jekyll/blob/master/LICENSE)![screenshot](https://github.com/byeolbit/byeolbit.github.io/blob/master/jekyllSS.png?raw=true)
+[![Travis](https://img.shields.io/travis/MoonCrystalPower/Dr.Jekyll.svg?style=flat-square)](https://travis-ci.org/MoonCrystalPower/Dr.Jekyll)
+[![Codecov branch](https://img.shields.io/codecov/c/github/MoonCrystalPower/Dr.Jekyll/master.svg?style=flat-square)](https://codecov.io/gh/MoonCrystalPower/Dr.Jekyll)
+[![GitHub issues](https://img.shields.io/github/issues/MoonCrystalPower/Dr.Jekyll.svg?style=flat-square)](https://github.com/MoonCrystalPower/Dr.Jekyll/issues)
+[![GitHub license](https://img.shields.io/github/license/MoonCrystalPower/Dr.Jekyll.svg?style=flat-square)](https://github.com/MoonCrystalPower/Dr.Jekyll/blob/master/LICENSE)
+![screenshot](https://github.com/byeolbit/byeolbit.github.io/blob/master/jekyllSS.png?raw=true)
 
 ## Features
 #### With Dr.Jekyll, you can concentrate only posting
